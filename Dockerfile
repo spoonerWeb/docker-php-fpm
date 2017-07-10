@@ -66,6 +66,7 @@ RUN cd /usr/src/ && tar -xf php.tar.xz && cp -rf php-${PHP_VERSION}/* php && cd 
     mongodb \
     memcached \
     redis \
+    ldap \
     pcntl && \
     rm -rf /usr/src/php*
 
